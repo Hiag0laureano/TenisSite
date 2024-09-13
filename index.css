@@ -1,0 +1,31 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.Logo{
+  width: 100px; 
+  height:auto;
+}
+.navbar{
+  background-color: black;
+  display: 100%;
+}
+.NomeLogo{
+  color: white;
+}
+.nome{
+  text-decoration: white;
+}
+.navbar-brand{
+  color: white;
+  font-style:italic;
+}
+.nav-link{
+  color: white;
+  cursor:landscape;
+  
+}
+.letrero{
+  background-color: black;
+}
+
