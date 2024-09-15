@@ -33,6 +33,7 @@ p{
   font-style: normal;
   text-align: center;
   font-size: 20px;
+  margin-bottom: 1px;
 }
 section{
   display: grid;
@@ -104,6 +105,83 @@ main{
   display: flex;
   padding-top: 3%;
   
+}
+.hidden{
+  opacity: 0;
+  filter:blur(15px);
+  transition: all 3s;
+  transform: translateX(-100%);
+}
+
+.show{
+  opacity: 1;
+  filter:blur(0);
+  transition: all 2s;
+  transform: translateX(0);
+}
+.apacamentos{
+  padding: 5%;
+}
+.logos{
+  overflow: auto;
+  margin-top: 10%;
+  display: flex;
+  gap: 20px;
+}
+.avatar{
+  height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.logos :nth-child(2){
+  transition-delay: 400ms;
+}
+.logos :nth-child(3){
+  transition-delay: 700ms;
+}
+.logos :nth-child(4){
+  transition-delay: 1000ms;
+}
+.nomeP{
+  text-align: left;
+}
+.preco{
+  display:flex;
+}
+.preco p{
+  padding: 4px;
+}
+.precoB{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 20px;
+}
+.Cupom{
+  font-size: 12px;
+  width: 25%;
+  text-align: left;
+  background-color: green;
+  color: #fff;
+}
+.precoC{
+  text-align: left;
+}
+.imgFM{
+  margin-bottom: 5%;
+  height: 700px;
+}
+.btnJunte{
+  margin-bottom: 20px;
+  border-radius: 50px;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: #000000;
+}
+.btnJunte p{
+  font-size: 15px;
 }
 
 /*Fim da MainHome*/
