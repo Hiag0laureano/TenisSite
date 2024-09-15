@@ -1,26 +1,7 @@
-import Swiper from 'swiper/bundle';
+const lastOne = document.querySelector(".last-one");
 
-// import styles bundle
-import 'swiper/css/bundle';
+const myObserver = new IntersectionObserver((entries) => {
+  console.log(entries);
+});
 
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+myObserver.observe(lastOne);

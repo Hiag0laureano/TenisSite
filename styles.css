@@ -1,0 +1,120 @@
+*{
+  margin: 0px; /*Margem externa das caixas*/
+  padding: 0px; /*Mergem interna das caixas*/
+  box-sizing: border-box; /*Ajuste das caixas sem a soma com a largura*/
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+  margin: 0px;
+}
+h2{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+h1{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  font-size: 100px;
+  padding: 0%;
+}
+p{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+}
+section{
+  display: grid;
+  place-items: center;
+  align-items: center;
+  min-height: 1vh;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.Logo{
+  width: 100px; 
+  height:auto;
+}
+.navbar{
+  text-align: center;
+  background-color: black;
+  display: 100%;
+}
+.NomeLogo{
+  color: white;
+}
+.nome{
+  text-decoration: white;
+}
+.navbar-brand{
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.nav-link{
+  color: white;
+  cursor:landscape;
+  
+}
+.letrero{
+  background-color: black;
+}
+/*fim da navbar */
+
+/* Inicio da Main Home*/
+main{
+  background: rgb(60,9,121);
+  background: linear-gradient(0deg, rgba(60,9,121,1) 0%, rgba(0,0,0,1) 100%);
+}
+.imgHome{
+  width: auto;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  padding: 10%;
+}
+.imgHome img{
+  padding-right: 25px;
+}
+
+.img{
+  display: flex;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.img img{
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  padding-top: 3%;
+  
+}
+
+/*Fim da MainHome*/
+footer {
+  background-color: black;
+  /* Permitir com que o rodapé fique com seu conteúdo flexível */
+  display: flex;
+  /* Dispor o conteudo em linha */
+  flex-direction: row;
+  /* AJustar o conteúdo com justify-content: e Align_Itens; */
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
